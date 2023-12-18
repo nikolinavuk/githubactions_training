@@ -1,9 +1,10 @@
 name: Test docker container file
+
 on:
   push:
     branches:
-    - main
-    paths: [ hello-world-docker_action/** ]
+      - main
+    paths: [hello-world-docker-action/**]
   workflow_dispatch:
 
 jobs:
