@@ -15,7 +15,7 @@ jobs:
 
       - name: Run container
         id: hello-action
-        uses: ./hellow-world-docker-action
+        uses: ./hello-world-docker-action
         with:
           who-to-greet: "@nikolina"
 
